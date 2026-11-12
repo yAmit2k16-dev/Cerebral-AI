@@ -1,0 +1,34 @@
+CEREBRAL AI - EVALUATION RESULTS
+==================================================
+Test Accuracy: 92.06%
+Total test images: 1600
+
+CLASSIFICATION REPORT
+              precision    recall  f1-score   support
+
+      glioma     0.9011    0.8425    0.8708       400
+  meningioma     0.9110    0.8700    0.8900       400
+     notumor     0.9452    0.9925    0.9683       400
+   pituitary     0.9222    0.9775    0.9490       400
+
+    accuracy                         0.9206      1600
+   macro avg     0.9199    0.9206    0.9195      1600
+weighted avg     0.9199    0.9206    0.9195      1600
+
+CONFUSION MATRIX
+Class order: ['glioma', 'meningioma', 'notumor', 'pituitary']
+[[337  32  20  11]
+ [ 27 348   3  22]
+ [  2   1 397   0]
+ [  8   1   0 391]]
+
+MACRO METRICS
+Precision: 0.9199
+Recall: 0.9206
+F1-score: 0.9195
+
+
+WEIGHTED METRICS
+Precision: 0.9199
+Recall: 0.9206
+F1-score: 0.9195
