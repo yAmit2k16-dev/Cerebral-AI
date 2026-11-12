@@ -1,5 +1,6 @@
-streamlit==1.66.1
+streamlit==1.41.1
 tensorflow==2.15.0
+protobuf==4.25.8
 numpy==1.26.4
 Pillow
 reportlab==5.1.0
